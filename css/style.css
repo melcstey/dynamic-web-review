@@ -20,15 +20,3 @@ body, html {
 .item4 {
 	grid-column: 2;
 }
-
-@media screen and (max-width: 320px) {
-	.grid-parent {
-		grid-template-columns: 1fr;
-	}
-	.item2 {
-		grid-row: span1;
-	}
-	.item4 {
-		grid-column: 1;
-	}
-}
